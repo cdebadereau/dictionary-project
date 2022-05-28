@@ -1,9 +1,25 @@
+import Dictionary from "./Dictionary";
 import "./App.css";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Hello</h1>
+      <div className="container">
+        <main>
+          <Dictionary />
+        </main>
+        <footer>
+          This website was coded by Cyrielle de Badereau and is{" "}
+          <a
+            href="https://github.com/cdebadereau/dictionary-project"
+            target="_blank"
+            rel="noreferrer"
+          >
+            open source
+          </a>
+          .
+        </footer>
+      </div>
     </div>
   );
 }
