@@ -7,7 +7,7 @@ export default function App() {
       <div className="container">
         <h1>English Dictionary</h1>
         <main>
-          <Dictionary />
+          <Dictionary defaultKeyword="sunrise" />
         </main>
         <footer>
           This website was coded by Cyrielle de Badereau and is{" "}
